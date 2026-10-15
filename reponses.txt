@@ -1,0 +1,44 @@
+Q1. Pourquoi faut-il configurer user.email avec l'adresse de votre compte GitHub ? Que se
+passerait-il sur GitHub sinon ?
+
+Il faut configurer user.email avec l’adresse associée à son compte GitHub pour que GitHub puisse associer les commits à son compte et afficher son nom et son profil sur les contributions
+
+
+Q2. Pourquoi GitHub vous demande-t-il un jeton plutôt que votre mot de passe ? Pourquoi un jeton avec une date d'expiration ?
+
+
+C'est plus sûr qu'un mot de passe, car le jeton peut avoir des permissions limitées et être révoqué sans changer le mot de passe du compte. 
+Pour des raisons de sécurité, un jeton expirant limite les risques s'il est volé ou divulgué. Une fois expiré, il ne peut plus être utilisé et doit être renouvelé.
+
+
+Q3. Vrai ou Faux 
+
+a.Je peux faire un commit dans le train, sans connexion.
+Vrai. Git fonctionne sans connexion Internet, car les commits sont enregistrés localement sur l’ordinateur.
+
+b.Pour utiliser Git, il faut un compte GitHub. 
+Faux. Git peut être utilisé sans compte GitHub, car c’est un logiciel indépendant.
+
+c.Quand je fais un commit, il part automatiquement sur GitHub.
+Faux. Un commit est enregistré localement et doit être envoyé sur GitHub avec la commande git push.
+
+d.Une équipe peut utiliser Git sans GitHub.
+Vrai. Une équipe peut utiliser Git avec un serveur privé ou une autre plateforme que GitHub.
+
+e.Git est un logiciel, GitHub est une plateforme web.
+Vrai. Git est un logiciel de gestion de versions, tandis que GitHub est une plateforme web qui permet notamment d’héberger et de partager des dépôts Git.
+
+
+Q4. Q4. Proposez votre propre comparaison (autre que l'appareil photo) pour expliquer Git et GitHub à quelqu'un qui n'est pas informaticien.
+
+On peut comparer Git à un cahier de brouillon qui garde l’historique de toutes les modifications, et GitHub à une bibliothèque en ligne où l’on partage ce cahier avec d’autres personnes.
+
+
+Mission A :
+- Commits affichés actuellement sur GitHub : 1
+- Commits prévus après le push : 5
+
+
+Mission B :
+git add enregistre dans la zone de préparation l'état du fichier à cet instant. Les modifications effectuées après git add ne sont pas incluses dans le commit tant qu'on ne refait pas git add. C'est pourquoi le fichier sur GitHub peut être différent du fichier local.
+
